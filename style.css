@@ -1,0 +1,97 @@
+/* CSS files add styling rules to your content */
+
+body {
+font-family: 'Fjalla One', sans-serif;
+  margin: 10vh;
+}
+
+h1 {
+  display: flex;
+  font-style: italic;
+  color: white;
+  font-size: 10vmin;
+  justify-content: center;
+}
+
+/* #help{
+  display:flex;
+  justify-content: flex-end;
+} */
+
+/* the following two items is in reference to W3 schools */
+ul {
+  list-style-type: none;
+  margin: 0vh;
+  padding: 0vh;
+  overflow: hidden;
+  background-color: #6F1D1B;
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+li {
+  display:flex;
+  flex-wrap: nowrap;
+  font-size: 3vh;
+}
+
+
+li a {
+  text-decoration: none;
+  padding: 1vw 5vh;
+  display: flex;
+  color: white;
+}
+
+/* the following two items were in reference to W3 schools */
+
+li a:hover:not(.active) {
+  background-color: #BB9457;
+  color: #6F1D1B;
+}
+
+.active {
+  background-color: #BB9457;
+}
+
+.slideshow {
+  max-width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.pics {
+  width: 80%;
+  height: 70%;
+  filter: sepia(50%);
+  display: flex;
+  justify-content: center;
+}
+
+html{
+  background-color: #bf7d4f;
+  font-family: 'Fjalla One', sans-serif;
+  margin: 0;
+}
+
+h2{
+  color: white;
+  font-size: 3vmin;
+  font-size: 3vmax;
+}
+
+p{
+  color: #432818;
+  font-size: 2vmin;
+  font-size: 2vmax;
+}
+
+#uh {
+  width: 50%;
+}
+
+#uhrp {
+  display: flex;
+  justify-content: center;
+}
